@@ -7,7 +7,7 @@ import Link from "next/link"
 
 const navItems=[
     {name:"home",href:"/"},
-    {name:"Chef List",href:"/chef"},
+    {name:"Chef List",href:"/chef/list"},
     {name:"Contact",href:"/contact"}
 ]
 export const SideBar = () => {
