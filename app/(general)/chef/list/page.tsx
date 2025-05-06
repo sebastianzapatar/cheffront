@@ -1,4 +1,4 @@
-import { ChefList } from "@/app/schemas/ChefList";
+import { ChefList } from "@/app/components/chef/ChefList";
 export default function ListChef() {
   return (
     <ChefList/>
