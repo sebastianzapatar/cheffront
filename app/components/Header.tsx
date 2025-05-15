@@ -9,7 +9,7 @@ export const Header = () => {
 
         <div className="flex items-center gap-3">
             <span className="text-gray-700 font-medium">
-                Usuario
+                Sebas Sexy (⌐■_■)🤨👹
             </span>
             <img 
                 src="https://cdn.cnn.com/cnnnext/dam/assets/211117211009-pba-ranking.jpg"
