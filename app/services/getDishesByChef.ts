@@ -6,6 +6,6 @@ export const getDishedByChef=async(id:string):Promise<Dish[]>=>{
         const res=await axios.get(`${url}/chef/${id}/dishes`)
         return res.data;
     }catch(error){
-        throw new Error("Platos no encontrados 😢");
+        throw new Error("Platos no encontrados 😢"+error);
     }
 }

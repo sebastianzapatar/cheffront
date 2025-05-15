@@ -1,9 +1,10 @@
 import { DishByChef } from "@/app/components/chef/DishByChef";
-interface Props{
-    params:{id:string}
-}
-export default function  ChefDetailPage({params}:Props) {
+
+export default async function  ChefDetailPage({params}:{params:Promise<{id:string}>}) {
+  const {id}=await params;
   return (
-    <DishByChef id={params.id}/>
+    <DishByChef id={id}/>
   );
 }
+
+

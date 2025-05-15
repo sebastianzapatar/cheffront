@@ -24,7 +24,7 @@ export const ChefForm = () => {
         form.reset()
     }
     catch(error){
-
+      alert(error);
     }
   }
   return (

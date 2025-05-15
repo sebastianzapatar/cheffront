@@ -9,6 +9,6 @@ export async function getChefs():Promise<Chef[]>{
         return data;
     }
     catch(error){
-        throw new Error("It was not possible to connect")
+        throw new Error("It was not possible to connect"+error)
     }
 }
